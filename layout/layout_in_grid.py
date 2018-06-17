@@ -9,8 +9,8 @@ Tested environment:
 import sys
 
 try:
-    from PySide import QtCore
-    from PySide import QtGui
+    from PySide2 import QtCore
+    from PySide2 import QtWidgets as QtGui
 except ImportError:
     from PyQt4 import QtCore
     from PyQt4 import QtGui
